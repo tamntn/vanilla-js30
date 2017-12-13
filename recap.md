@@ -4,3 +4,5 @@
 * querySelector & querySelectorAll
 * classList.add() / className = ""
 * addEventListener: 'keydown' and 'transitionend'
+* vw: viewport width, vh: viewport height
+
