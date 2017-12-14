@@ -4,8 +4,10 @@
 * querySelector & querySelectorAll
 * classList.add() / className = ""
 * addEventListener: 'keydown' and 'transitionend'
-<<<<<<< HEAD
 * vw: viewport width, vh: viewport height
 
-=======
->>>>>>> 95c24170da9325d71866cb382eeaea69cfcb9a02
+## Day 2 - CSS and JS Clock
+* transform-origin: default value is 50%
+* transition-timing-function: custom transition effect
+* Date Object
+* style: using .style to add styles to an element
