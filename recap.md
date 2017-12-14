@@ -15,3 +15,14 @@
 ## Day 3 - CSS Variables
 * When you make up html attributes, it has to have "data-" as the prefix
 * To get all those "data-..." attributes as an object, we can call .dataset (ex: this.dataset)
+* CSS variable
+```css
+/* Definition */
+--base: #ffc600;
+
+/* Use */
+.hl {
+    color: var(--base);
+}
+```
+* Update CSS variable with JS
