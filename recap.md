@@ -26,3 +26,10 @@
 }
 ```
 * Update CSS variable with JS
+
+## Day 4 - Array Cardio (Day 1)
+* Console.table(Array_of_Objects)
+* Normal function -> Arrow function
+* filter(), reduce(), map(), sort()
+* For reduce(), you need an initial value of the thing you want to return
+* Assign array elements to variables when you created a new array (see number 7)
