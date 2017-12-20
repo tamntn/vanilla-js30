@@ -33,3 +33,9 @@
 * filter(), reduce(), map(), sort()
 * For reduce(), you need an initial value of the thing you want to return
 * Assign array elements to variables when you created a new array (see number 7)
+
+## Day 5 - Flex Panel Gallery
+* Using flex box - define properties for flex containers
+* A item can be flex container and flex child at the same time
+* Learn more about CSS flexbox [here](https://flexbox.io/)
+* classList.toggle
