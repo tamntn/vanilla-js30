@@ -33,6 +33,10 @@
       box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.19);
     }
 
+    .suggestions-container {
+      overflow-y: scroll; 
+      height: 75vh;
+    }
 
     .suggestions {
       margin: 0;
