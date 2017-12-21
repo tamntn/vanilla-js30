@@ -72,3 +72,18 @@ const index = comments.find(comment => comment => comment.id === 823423);
 ```javascript
 const index = comments.findIndex(comment => comment.id === 823423);
 ```
+
+## Day 8 - HTML Canvas
+* canvas has "context". Context can be 2d or 3d. Get the context of a canvas:
+```javascript
+canvas.getContext('2d');
+```
+* ES6 way to assign value to multiple variables
+```javascript
+// Normal way
+a = 0;
+b = 1;
+// ES6
+[a, b] = [0, 1];
+```
+* [globalCompositeOperation](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation)
