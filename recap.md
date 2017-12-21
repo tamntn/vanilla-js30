@@ -54,3 +54,21 @@ function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 }
 ```
+
+## Day 7 - Array Cardio (Day 2)
+* Array.prototype.some() - Checks against the array, and returns true if at least one item meets the condition specified.
+```javascript
+const isAdult = people.some(person => (new Date()).getFullYear() - person.year >= 19);
+```
+* Array.prototype.every() - Checks against the array, and returns true if all items meets the condition specified.
+```javascript
+const allAdults = people.every(person => (new Date()).getFullYear() - person.year >= 19);
+```
+* Array.prototype.find() - Checks against the array, and returns the result of the item, that meets the criteria (in this case it is an object)
+```javascript
+const index = comments.find(comment => comment => comment.id === 823423);
+```
+* Array.prototype.findIndex() - Checks against the array, and returns the index of the item that meets the condition specified.
+```javascript
+const index = comments.findIndex(comment => comment.id === 823423);
+```
