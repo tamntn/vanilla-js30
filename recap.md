@@ -39,3 +39,18 @@
 * A item can be flex container and flex child at the same time
 * Learn more about CSS flexbox [here](https://flexbox.io/)
 * classList.toggle
+
+## Day 6 - Type Ahead
+* fetch() method: return a promise. You need to call appropriate function for that return promise to convert into data (we use json() in this case)
+* Use of the ```... spread``` operator to push each data object into the array instead of it entirely (which would push the entire data source at index 0)
+* In order to use a variable as your string to match, you need to create a RegExp object. This can then be used in match() methods, for example:
+```javascript
+const regex = new RegExp(wordToMatch, 'gi');
+return place.city.match(regex);
+```
+* Use of a function to convert number to string with commas
+```javascript
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+}
+```
