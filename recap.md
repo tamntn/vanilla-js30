@@ -87,3 +87,6 @@ b = 1;
 [a, b] = [0, 1];
 ```
 * [globalCompositeOperation](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation)
+
+## Day 9 - Dev Tools
+* See exercises
