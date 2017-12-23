@@ -90,3 +90,8 @@ b = 1;
 
 ## Day 9 - Dev Tools
 * See exercises
+
+## Day 10 - Shift to Check Boxes
+* event.shiftKey
+
+## Day 11 - Custom Video Player
