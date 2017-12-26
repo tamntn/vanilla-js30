@@ -11,7 +11,6 @@ const ranges = player.querySelectorAll('.player__slider');
 function togglePlay(){
     if(video.paused) {
         video.play();
-        video.innerHTML = "=";
     }
     else {
         video.pause();

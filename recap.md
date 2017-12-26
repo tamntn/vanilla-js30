@@ -95,3 +95,17 @@ b = 1;
 * event.shiftKey
 
 ## Day 11 - Custom Video Player
+* To assess whether the video is being played or paused:
+```javascript
+// Return a boolean
+video.paused;
+```
+* Make a video play/pause:
+```javascript
+video.play();
+video.pause();
+```
+* To change the current playing time of a video:
+```javascript
+video.currentTime = 60;
+```
