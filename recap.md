@@ -109,3 +109,5 @@ video.pause();
 ```javascript
 video.currentTime = 60;
 ```
+
+## Day 12 - Key Sequence Detection
