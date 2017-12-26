@@ -111,3 +111,12 @@ video.currentTime = 60;
 ```
 
 ## Day 12 - Key Sequence Detection
+
+## Day 13 - Slide in on Scroll
+* Multiple properties of the window Object:
+```javacript
+window.innerHeight;
+window.scrollY; // Where the top of the screen is currently at when user scrolls
+image.offsetTop; // Where the top of the image is when it's scroll out of the screen
+```
+* CSS transform: translateX(0%) or translateY(0%) - move an object from its original position
