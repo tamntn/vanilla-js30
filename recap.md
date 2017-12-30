@@ -120,3 +120,61 @@ window.scrollY; // Where the top of the screen is currently at when user scrolls
 image.offsetTop; // Where the top of the image is when it's scroll out of the screen
 ```
 * CSS transform: translateX(0%) or translateY(0%) - move an object from its original position
+
+## Day 14 - JS Reference vs Copy
+### string, number and boolean
+* Javascript makes copy of these type, so changing value of the original variable is fine.
+### array
+* Assigning an array to a variable will "reference" the original array
+```javascript
+const players = ['Wes', 'Sarah', 'Ryan', 'Poppy'];
+const team1 = players; // Reference
+```
+* Ways to make copies of array:
+```javascript
+const team2 = players.slice();
+const team3 = [].concat(players);
+const team4 = [...players];
+const team5 = Array.from(players);
+```
+### Objects
+* Assigning an object to a variable will also "reference" the original object
+```javascript
+const person = {
+      name: 'Wes Bos',
+      age: 80
+    };
+const captain = person;
+```
+* Ways to make copies of object:
+```javascript
+const person = {
+    name: 'Wes Bos',
+    age: 80
+};
+
+const cap2 = Object.assign({}, person, { age: 99 });
+const cap3 = JSON.parse(JSON.stringify(person));
+```
+* Note: Object.assign() will only copy the first level of the Object. The next levels are still under reference
+```javascript
+const wes = {
+      name: 'Wes',
+      age: 100,
+      social: {
+        twitter: '@wesbos',
+        facebook: 'wesbos.developer'
+      }
+    }
+
+// Changing level 1 - The original value will not be changed
+const dev = Object.assign({}, wes);
+dev.name = 'Wesley';
+console.log(dev);
+console.log(wes);
+
+// Changing level 2 - The original value will also be changed
+dev.social.twitter = '@coolman';
+console.log(dev.social);
+console.log(wes.social);
+```
