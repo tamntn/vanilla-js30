@@ -76,6 +76,7 @@
           <li>
             <input type="checkbox" data-index=${i} id="item${i}" ${plate.done ? 'checked' : ''}/>
             <label for="item${i}">${plate.text}</label>
+            <span class="delete-item" data-index=${i}>✖</span>
           </li>
         `;
       }).join('');
@@ -89,6 +90,15 @@
       localStorage.setItem('items', JSON.stringify(items));
     };
 
+    function deleteItem(e) {
+      if (!e.target.matches('span')) return; // skip this unless it's the x span
+      const el = e.target;
+      const index = el.dataset.index;
+      items.splice(index, 1);
+      populateList(items, itemsList);
+      localStorage.setItem('items', JSON.stringify(items));
+    }
+
     function clearItems() {
       localStorage.clear();
       items = [];
@@ -96,13 +106,13 @@
     }
 
     function checkItems() {
-      items.forEach(item => {item.done = true});
+      items.forEach(item => { item.done = true });
       localStorage.setItem('items', JSON.stringify(items));
       populateList(items, itemsList);
     };
 
     function uncheckItems() {
-      items.forEach(item => {item.done = false});
+      items.forEach(item => { item.done = false });
       localStorage.setItem('items', JSON.stringify(items));
       populateList(items, itemsList);
     };
@@ -111,6 +121,7 @@
     populateList(items, itemsList);
 
     itemsList.addEventListener('click', toggleDone);
+    itemsList.addEventListener('click', deleteItem);
 
     clearButton.addEventListener('click', clearItems);
     checkButton.addEventListener('click', checkItems);
