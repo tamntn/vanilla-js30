@@ -7,6 +7,7 @@
 </head>
 
 <body>
+  <h1 id='total'></h1>
   <ul class="videos">
     <li data-time="5:43">
       Video 1
@@ -202,6 +203,9 @@
     secondsLeft = secondsLeft % 60;
 
     console.log(hours, minutes, secondsLeft);
+
+    const total = document.querySelector('#total');
+    total.innerHTML = `Total: ${hours}:${minutes}:${secondsLeft}`;
   </script>
 </body>
 
