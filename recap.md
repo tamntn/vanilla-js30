@@ -204,3 +204,8 @@ const { offsetWidth: width, offsetHeight: height } = hero;
 ```
 * event's offset values
 
+## Day 17 - Sort Without Articles
+
+## Day 18 - Adding Up Times with Reduced
+* reduce with Array
+* parseFloat
