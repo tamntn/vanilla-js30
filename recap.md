@@ -197,3 +197,10 @@ form.reset();
     * getting started with client-side storage [link](http://thejackalofjavascript.com/getting-started-with-client-side-storage/)
 
 ## Day 16 - Mouse Move Shadow
+* Destructuring objects: cool way to assign multiple values from an object
+```javascript
+// In this case, we assigning hero.offsetWidth to width, and hero.offsetHeight to height
+const { offsetWidth: width, offsetHeight: height } = hero;
+```
+* event's offset values
+
