@@ -192,3 +192,8 @@ form.reset();
     * function: setItem(), getItem(), clear(),...
     * to store objects, we need to 'stringify' objects into strings by using JSON.stringify()
 * Event Delegation
+* Learn more about client-side storage:
+    * localStorage, sessionStorage and cookies [here](https://www.quora.com/What-is-the-difference-between-sessionstorage-localstorage-and-Cookies)
+    * getting started with client-side storage [link](http://thejackalofjavascript.com/getting-started-with-client-side-storage/)
+
+## Day 16 - Mouse Move Shadow
