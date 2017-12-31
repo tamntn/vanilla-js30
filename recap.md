@@ -178,3 +178,17 @@ dev.social.twitter = '@coolman';
 console.log(dev.social);
 console.log(wes.social);
 ```
+
+## Day 15 - Local Storage
+* Forms
+```javascript
+// Prevent page to reload after hitting submit button
+e.preventDefault()l
+// Clear a form
+form.reset();
+```
+* localStorage: store local data for individual webpages/browsers. This enables your pages to have continuity based on existing user behaviors.
+    * data is stored as a string that has a key.
+    * function: setItem(), getItem(), clear(),...
+    * to store objects, we need to 'stringify' objects into strings by using JSON.stringify()
+* Event Delegation
