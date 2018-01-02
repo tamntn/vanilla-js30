@@ -216,3 +216,6 @@ const { offsetWidth: width, offsetHeight: height } = hero;
 * document.createElement - create an element
 * insertBefore(element, position)
 
+## Day 20 - Speech Detection
+* SpeechRecognition()
+* addEventListener - 'result' and 'end'
