@@ -9,7 +9,7 @@ const words = document.querySelector('.words');
 words.appendChild(p);
 
 recognition.addEventListener('result', e => {
-    const transcipt = Array.from(e.results)
+    const transcript = Array.from(e.results)
         .map(result => result[0])
         .map(result => result.transcript)
         .join('');
