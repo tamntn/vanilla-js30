@@ -219,3 +219,19 @@ const { offsetWidth: width, offsetHeight: height } = hero;
 ## Day 20 - Speech Detection
 * SpeechRecognition()
 * addEventListener - 'result' and 'end'
+
+## Day 21 - Geolocation
+
+## Day 22 - Follow Along Link Highlight
+* getBoundingClientRect() - return an element size and position relative to the window
+```javascript
+const elementCoords = this.getBoundingClientRect();
+const coords = {
+    width: linkCoords.width,
+    height: linkCoords.height,
+    top: linkCoords.top + window.scrollY,
+    left: linkCoords.left + window.scrollX,
+}
+```
+* window.scrollX & window.scrollY - get the position of the window when user scrolls
+* addEventListener - 'mouseenter'
