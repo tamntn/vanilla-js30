@@ -221,6 +221,8 @@ const { offsetWidth: width, offsetHeight: height } = hero;
 * addEventListener - 'result' and 'end'
 
 ## Day 21 - Geolocation
+* navigator.geolocation.watchPosition() vs. navigator.geolocation.getCurrentLocation()
+
 
 ## Day 22 - Follow Along Link Highlight
 * getBoundingClientRect() - return an element size and position relative to the window
