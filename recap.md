@@ -246,3 +246,18 @@ const coords = {
 ## Day 24 - Sticky Nav
 * offsetTop, offsetHeight, offsetWidth,...
 * Use of transition for animation in CSS
+
+## Day 25 - Event Capture, Propagation, Bubbling and Once
+* capture - When an event listener has been attached to an element, and that element has parent elements, triggering the event will lead to all elements registering. By default the events will be triggered from the inside out, but setting capture to ```true``` will reverse this direction to outside in.
+```javascript
+divs.forEach(div => div.addEventListener('click', logText, {
+    capture: true
+}));
+```
+* ```e.stopPropagation()``` will make the event only fire at the exact element, not all parent elements associated
+* once - This is a useful option for the ```addEventListener``` method, that will prevent the element from triggering multiple events. It has the same functionality as ```removeEventListener```.
+```javascript
+divs.forEach(div => div.addEventListener('click', logText, {
+    once: true
+}));
+```
