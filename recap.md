@@ -237,3 +237,8 @@ const coords = {
 ```
 * window.scrollX & window.scrollY - get the position of the window when user scrolls
 * addEventListener - 'mouseenter'
+
+## Day 23 - Speech Synthesis
+* speechSynthesisUtterance
+* global speechSynthesis
+* functions that execute on page load vs. functions that execute on call
