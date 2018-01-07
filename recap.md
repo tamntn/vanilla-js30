@@ -242,3 +242,7 @@ const coords = {
 * speechSynthesisUtterance
 * global speechSynthesis
 * functions that execute on page load vs. functions that execute on call
+
+## Day 24 - Sticky Nav
+* offsetTop, offsetHeight, offsetWidth,...
+* Use of transition for animation in CSS
