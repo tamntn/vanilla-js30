@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background: url('https://source.unsplash.com/NFs6dRTBgaM/2000x2000') fixed;
+  background: url('https://source.unsplash.com/wMzx2nBdeng/1920x1080') fixed;
   background-size: cover;
 }
 
@@ -19,10 +19,10 @@ body {
 }
 
 .items {
-  height:800px;
+  height:500px;
   padding: 100px;
   width:100%;
-  border:1px solid white;
+  border:1px solid rgba(255,255,255,0.5);
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
