@@ -261,3 +261,8 @@ divs.forEach(div => div.addEventListener('click', logText, {
     once: true
 }));
 ```
+
+## Day 26 - Stripe Follow Along Nav
+
+## Day 27 - Click and Drag
+* ```event.pageX``` - the x pixel where the user click on the element
