@@ -266,3 +266,11 @@ divs.forEach(div => div.addEventListener('click', logText, {
 
 ## Day 27 - Click and Drag
 * ```event.pageX``` - the x pixel where the user click on the element
+
+## Day 28 - Video Speed Controller
+
+## Day 29 - Countdown Timer
+* setInterval() and clearInterval()
+* Form selector: ```document.formName```
+
+## Day 30 - Whack A Mole
