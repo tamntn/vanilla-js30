@@ -84,6 +84,11 @@ body {
 	margin-bottom: 140px;
 }
 
+.left a {
+    font-weight: bold;
+    color: black;
+}
+
 .left img {
 	width: 70%;
 	display: block;
@@ -95,11 +100,12 @@ body {
 }
 
 .left ul {
-	margin-top: 40px;
+    margin-top: 40px;
+    font-size: 20px;
 }
 .left ul li {
-	margin-left: 10px;
-	padding-top: 5px;
+	margin-left: 15px;
+	padding-top: 10px;
 }
 .right {
 	width: 41%;
@@ -135,5 +141,4 @@ a {
 	color: rgba(5, 5, 5, 1);
 	font-size: 18px;
     font-weight: bold;
-    text-decoration: underline;
 }
