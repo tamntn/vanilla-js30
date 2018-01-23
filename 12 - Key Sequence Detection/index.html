@@ -8,9 +8,10 @@
 </head>
 
 <body>
+  <p style="text-align: center">Try typing 'magic'</p>
   <script>
     const pressed = [];
-    const secretCode = 'wesbos';
+    const secretCode = 'magic';
     window.addEventListener('keyup', (e) => {
       pressed.push(e.key);
       pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
