@@ -67,7 +67,7 @@ body {
 }
 
 .left {
-	width: 55%;
+	width: 60%;
 }
 
 .description {
@@ -108,7 +108,7 @@ body {
 	padding-top: 10px;
 }
 .right {
-	width: 41%;
+	width: 36%;
 	height: calc(100% - 15px);
 	overflow-y: scroll;
 	margin: 10px 0 5px 2%;
